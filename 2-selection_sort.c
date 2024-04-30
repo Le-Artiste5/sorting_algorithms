@@ -25,11 +25,8 @@ void selection_sort(int *array, size_t size)
 		temp = array[i];
 		array[i] = array[m_num_idx];
 		array[m_num_idx] = temp;
-
-		printf("Swap process %d and %d: ", array[i], array[m_num_idx]);
-                }
 		print_array(array, size);
-
+		}
 		
 
 	}
